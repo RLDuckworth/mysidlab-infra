@@ -35,7 +35,7 @@
     
 - name: Copy Randall's files to remote host
   copy:
-    src: files/randalltest
+    src: files/Randalltest
     dest: /var/www/html
     owner: apache
     group: apache
